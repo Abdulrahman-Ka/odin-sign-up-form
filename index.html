@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Sign-up Form</title>
+  </head>
+  <body>
+    <aside>
+        <div class="logo">
+            <h1>Odin</h1>
+        </div>
+        <div class="owner">
+            <p>Photo by <a href="">Haile West</a> on <a href="">Unsplash</a></p>
+        </div>
+    </aside>
+    <main>
+      <section class="intro">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams.
+        </p>
+        <p>Sign up <i>now</i> to get started.</p>
+        <p class="caption">You <i>know</i> you want to.</p>
+      </section>
+      <form class="card">
+        <h3>Let's do this!</h3>
+        <div class="col">
+          <div class="left-col">
+            <label for="fname">first name</label>
+            <input
+            tabindex="1"
+              type="text"
+              id="fname"
+              name="fname"
+              autocomplete="name"
+              required
+            />
+            <label for="email">email</label>
+            <input
+            tabindex="3"
+              type="email"
+              name="email"
+              id="email"
+              required
+              autocomplete="email"
+            />
+            <label for="password">password</label>
+            <input
+            tabindex="5"
+              type="password"
+              name="password"
+              id="password"
+              required
+              autocomplete="new-password"
+            />
+          </div>
+          <div class="right-col">
+            <label for="lname">last name</label>
+            <input
+            tabindex="2"
+              type="text"
+              autocomplete="family-name"
+              id="lname"
+              name="fname"
+              required
+            />
+            <label for="phone">phone number</label>
+            <input
+            tabindex="4"
+              type="tel"
+              name="phone"
+              id="phone"
+              required
+              autocomplete="tel"
+            />
+          </div>
+        </div>
+        <button type="button" tabindex="6">Create Account</button>
+        <p class="login" >Already have an account? <a href="#" tabindex="7">Log in</a></p>
+      </form>
+    </main>
+  </body>
+</html>
